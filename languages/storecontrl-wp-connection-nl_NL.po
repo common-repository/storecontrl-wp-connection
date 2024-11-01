@@ -1,0 +1,946 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StoreContrl WP Connection\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-11 12:08+0000\n"
+"PO-Revision-Date: 2020-06-11 12:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl-NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: includes/class-arture-wp-connection.php:75
+msgid ""
+"You're trying to use a trial key that isn't active. Trial keys are active "
+"for a month, you're required to purchase a full license after this period "
+"has ended. Visit <a href='http://www.arture.nl/products' title='Arture'>our "
+"website</a> for more information."
+msgstr ""
+"U probeert een sleutel te gebruiken die niet actief is. Sleutels voor "
+"proefperiodes blijven een maand werken, daarna dient u een licentie aan te "
+"schaffen. Bekijk <a href='http://www.arture.nl/products' title='Arture'>onze "
+"website</a> voor meer informatie."
+
+#: includes/class-arture-wp-connection.php:78
+msgid "The Arture StoreContrl API key is incorrect or inactive."
+msgstr "De Arture StoreContrl API sleutel is incorrect of inactief."
+
+#: includes/class-arture-wp-connection.php:131
+msgid "There is a new version available of the Arture StoreContrl API."
+msgstr "Er is een nieuwe versie beschikbaar van de Arture StoreContrl API."
+
+#: includes/class-arture-wp-connection.php:131
+msgid "The installed version: "
+msgstr "De geïnstalleerde versie:"
+
+#: includes/class-arture-wp-connection.php:131
+msgid "The newest version: "
+msgstr "De nieuwste versie:"
+
+#: includes/class-arture-wp-connection.php:174
+msgid "A problem has occured when checking the last time our cronjobs ran!"
+msgstr ""
+"Er is een fout opgetreden tijdens het controleren van het laatste moment "
+"waarop de cronjobs zijn uitgevoerd!"
+
+#: includes/class-arture-wp-connection.php:177
+msgid ""
+"The cronjob for syncing products with StoreContrl hasn't run for a while! "
+"The last time the cronjob ran was: "
+msgstr ""
+"The cronjob die producten synchroniseert met StoreContrl is langdurig niet "
+"uitgevoerd! De laatste keer dat de cronjob is uitgevoerd is: "
+
+#: includes/class-arture-wp-connection.php:177
+msgid " hours ago!"
+msgstr "uur geleden!"
+
+#: includes/class-arture-wp-connection.php:181
+msgid "The cronjob for syncing products with StoreContrl is not active!"
+msgstr ""
+"The cronjob die producten synchroniseert met StoreContrl is niet actief!"
+
+#: includes/class-arture-wp-connection.php:206
+msgid "Mappings are missing for the WooCommerce shipping methods. "
+msgstr "Nog niet alle verzendmethodes zijn ingesteld."
+
+#: includes/class-arture-wp-connection.php:207
+msgid "Mappings are missing for the WooCommerce payment methods."
+msgstr "Er ontbreken koppelingen bij de betaalmethodes van WooCommerce. "
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:56 
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:12
+msgid "API settings"
+msgstr "API instellingen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:57 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:58 
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:14
+msgid "Cronjobs"
+msgstr "Cronjobs"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:59 
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:15
+msgid "Import settings"
+msgstr "Importeer instellingen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:60 
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:16
+msgid "Woocommerce"
+msgstr "Woocommerce"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:61
+msgid "Status logs"
+msgstr "Status logboeken"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:62 
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:18
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:65 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:218
+msgid "Arture API key"
+msgstr "Arture API sleutel"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:66 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:74
+msgid "API url"
+msgstr "API link"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:67
+msgid "API key"
+msgstr "API sleutel"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:68
+msgid "API secret"
+msgstr "API code"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:69
+msgid "FTP url"
+msgstr "FTP link"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:70 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:208
+msgid "FTP user"
+msgstr "FTP gebruiker"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:71 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:213
+msgid "FTP password"
+msgstr "FTP wachtwoord"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:77
+msgid "Synchronisatie tijd"
+msgstr "Gewenste synchronisatie tijd"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:78
+msgid "Catalogus feed cronjob"
+msgstr "Producten synchronisatie cronjob"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:79
+msgid "Voorraad synchronisatie cronjob"
+msgstr "Voorraad synchronisatie cronjob"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:80
+msgid "Cronjob informatie"
+msgstr "Cronjob informatie"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:83
+msgid "Import images"
+msgstr "Importeer afbeeldingen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:84
+msgid "New Products Status"
+msgstr "Status voor nieuwe producten"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:85
+msgid "No Images Product Status"
+msgstr "Status bij producten zonder afbeelding"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:86
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:87
+msgid "Featured image"
+msgstr "Uitgelichte afbeelding"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:88
+msgid "Import categories"
+msgstr "Importeer categorieën"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:89
+msgid "Import only instock variations"
+msgstr "Importeer enkel leverbare variaties"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:90
+msgid "Import all products"
+msgstr "Importeer alle producten"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:91
+msgid "Keep product description"
+msgstr "Behoud product omschrijving"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:92
+msgid "Keep product title"
+msgstr "Behoud product titel"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:93
+msgid "Set barcode as SKU"
+msgstr "Zet barcode als SKU"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:94
+msgid "Link barcode to field(s)"
+msgstr "Koppel barcode aan meta veld(en)"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:95
+msgid "Use StoreContrl tags as maincategory *"
+msgstr "Gebruik StoreContrl tags als hoofdcategorie *"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:96
+msgid "* Include tags"
+msgstr "* Toegestane tags"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:97
+msgid "Sale category"
+msgstr "SALE categorie"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:98
+msgid "Additional main category *"
+msgstr "Extra hoofdcategorie"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:99
+msgid "* Exlude categories"
+msgstr "* Categorieën uitsluiten"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:102
+msgid "Set customer type"
+msgstr "Klant type instellen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:103
+msgid "Map shipping methods"
+msgstr "Verzendmethodes"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:104
+msgid "Map payment methods"
+msgstr "Betalingsmethodes koppelen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:105
+msgid "Save new orders"
+msgstr "Nieuwe bestellingen opslaan"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:107
+msgid "Delete products"
+msgstr "Producten verwijderen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:108
+msgid "Save color"
+msgstr "Kleur opslaan"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:109
+msgid "Save brand"
+msgstr "Merk opslaan"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:110
+msgid "Save season"
+msgstr "Seizoen opslaan"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:111
+msgid "Save supplier"
+msgstr "Leverancier opslaan"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:112
+msgid "Save supplier_code"
+msgstr "Leverancier code opslaan"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:115
+msgid "Active cronjobs"
+msgstr "Actieve cronjobs"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:116
+msgid "Remaining Batches"
+msgstr "Te verwerken batches"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:117
+msgid "Debug logs"
+msgstr "Debug logboeken"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:188
+msgid ""
+"Insert the StoreContrl api url: https://CLIENTNAME.sc-cloud-01.nl:1443/WebApi"
+msgstr ""
+"Vul uw StoreContrl api link in: https://CLIENTNAME.sc-cloud-01.nl:1443/WebApi"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:193
+msgid "Your API key"
+msgstr "Uw API sleutel"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:198
+msgid "Your API secret"
+msgstr "Uw API code"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:230
+msgid "Let's sell some products!"
+msgstr "Laten we producten verkopen!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:231
+msgid ""
+"Below you see our step-by-step guide for configurating this plugin. It’s "
+"important to follow the order of these steps to ensure solid configuration. "
+"Before you start the synchronization with StoreContrl, you should check all "
+"your import- and Woocommerce settings. Note: StoreContrl implemented a "
+"restriction on the  product-synchronization of max. 2 per day."
+msgstr ""
+"Hier vind u een stap voor stap instructie over het instellen van de plugin. "
+"Het is belangrijk dat de stappen op volgorde worden gevolgd voor een "
+"stabiele installatie. Controlleer alle import- en Woocommerce instellingen "
+"voordat u begint met de syncronisatie met StoreContrl. Notitie: StoreContrl "
+"heeft een limiet voor product-synchronisatie van maximaal twee keer per dag."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:232
+msgid ""
+"Are you currently working on a staging/dev site and are you willing to sync "
+"more than 2 times a day? Please contact StoreContrl for changing this "
+"setting."
+msgstr ""
+"Bent u momenteel aan het werk met een test-/ontwikkelings- website en zou u "
+"meer dan 2 keer per dag willen synchroniseren? Neem dan contact op met "
+"Arture voor een tijdelijke test modus."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:234
+msgid "Setup guide"
+msgstr "Installatie instructie"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:237
+msgid "API settings | Enter your API keys and url's"
+msgstr "API instellingen | Vul uw API sleutels en links in"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:238
+msgid "API settings | Test your connection"
+msgstr "API instellingen | Test uw verbinding"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:239
+msgid "Import settings | Check your settings"
+msgstr "Importeer instellingen | Controleer uw instellingen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:240
+msgid "Woocommerce | Check your settings"
+msgstr "Woocommerce | Controleer uw instellingen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:241
+msgid "Woocommerce | Enable new orders if necessary"
+msgstr "Woocommerce | Activeeroptie voor order verwerking"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:242
+msgid ""
+"Setup | Run 'Total synchronization'. This action will get all existing "
+"StoreContrl products."
+msgstr ""
+"Installatie | Voer 'Totale synchronisatie' uit. Deze functie zal alle "
+"StoreContrl producten ophalen."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:243
+msgid ""
+"Setup | Run 'Process batches'. This action will process all batches/products "
+"for testing or init purpose"
+msgstr ""
+"Installatie | Voer 'Verwerk batches' uit. Deze functie zal alle "
+"batches/producten verwerken voor test of initialisatie doeleinden"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:244
+msgid ""
+"Cronjobs | Everything seems oke? Once all products have been successfully "
+"processed enable the cronjobs"
+msgstr ""
+"Cronjobs | Alles lijkt in orde? Activeer de cronjobs zodra alle producten "
+"zijn gesynchroniseerd"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:255
+msgid "Total synchronization"
+msgstr "Totale synchronisatie"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:256
+msgid "Process all batches"
+msgstr "Verwerk alle batches"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:334
+msgid "Download Log File"
+msgstr "Download log bestand"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:410 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:437 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:446 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:455 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:464 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:474 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:483 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:492 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:501 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:557 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:566
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:410 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:437 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:446 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:455 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:464 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:474 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:483 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:492 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:501 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:557 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:566
+msgid "No"
+msgstr "Nee"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:410 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:437 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:446 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:455 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:464 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:474 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:483 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:492 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:501 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:557 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:566
+msgid "Yes/No"
+msgstr "Ja/Nee"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:412
+msgid "When enabled; existing product images will be imported/updated."
+msgstr ""
+"Zodra geactiveerd; bestaande product afbeeldingen zullen worden "
+"geïmporteerd/geüpdatet."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:419 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:428
+msgid "Live/Concept"
+msgstr "Gepubliceerd / Concept"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:421
+msgid "When enabled; new products will be put live after import."
+msgstr "Geactiveerd; nieuwe producten worden direct gepubliceerd."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:430
+msgid "When enabled; products with no images will be put live after import."
+msgstr "Geactiveerd; producten zonder afbeeldingen worden direct gepubliceerd."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:439
+msgid "Zodra geactiveerd; de samenvatting in de tekst zal worden opgeslagen."
+msgstr "Geactiveerd; de samenvatting in de tekst zal worden opgeslagen."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:448
+msgid ""
+"When enabled; the featured/first image will not be added to the product "
+"gallery."
+msgstr ""
+"Geactiveerd; de uitgelichte/eerste afbeeldingen zal niet worden toegevoegd "
+"aan de product galerij."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:457
+msgid "When enabled; existing product categories will be imported/updated."
+msgstr ""
+"Geactiveerd; bestaande productcategorieën zullen worden "
+"geïmporteerd/geüpdatet."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:466
+msgid "When enabled; only instock variations will be imported/updated."
+msgstr ""
+"Geactiveerd; alleen variaties die leverbaar zijn zullen worden "
+"geïmporteerd/geüpdatet."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:476
+msgid ""
+"When enabled; every sync will import/update all products. Default the only "
+"changed products of the last 14 days will be imported."
+msgstr ""
+"Geactiveerd; Alle synchronisaties zullen alle producten importeren/updaten. "
+"Standaard zullen alleen de producten die in de laatste 14 dagen zijn "
+"veranderd worden geïmporteerd."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:485
+msgid ""
+"When enabled; The product description will not be overwritten if a "
+"description is present."
+msgstr ""
+"Geactiveerd; de product content wordt niet bijgewerkt en kan handmatig "
+"worden gewijzigd in Woocommerce."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:494
+msgid ""
+"When enabled; The product title will not be overwritten if a description is "
+"present."
+msgstr ""
+"Geactiveerd; de product titel wordt niet bijgewerkt en kan handmatig worden "
+"gewijzigd in Woocommerce."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:503
+msgid ""
+"Zodra geactiveerd, de streepjescode van een variatie wordt ingesteld als de "
+"zichtbare SKU."
+msgstr ""
+" Geactiveerd, de streepjescode van een variatie wordt ingesteld als de "
+"zichtbare SKU."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:549
+msgid ""
+"Save the barcode in the above selected fields, hold down command on mac or "
+"ctrl on windows to select multiple fields"
+msgstr ""
+"Sla de barcode op in de hierboven geselecteerde veld(en), houd command voor "
+"mac of ctrl voor windows ingedrukt om meerdere velden te selecteren"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:559
+msgid "When enabled; variation aliases will be used. Default no."
+msgstr "Geactiveerd; de variatie alias wordt gebruikt."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:568
+msgid ""
+"When enabled; all product tags (existing in StoreContrl) given below will be "
+"used as maincategory."
+msgstr ""
+"Geactiveerd; alle product tags (bestaand in StoreContrl) hieronder "
+"aangegeven zullen worden gebruikt als hoofdcategorie."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:577
+msgid "Comma seperated tags by StoreContrl tag name."
+msgstr "Komma gescheiden tags zoals aanwezig in StoreContrl"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:620
+msgid ""
+"All sale products will be connected to this custom Woocommerce category."
+msgstr ""
+"Alle SALE producten zullen worden gekoppeld aan deze extra Woocommerce "
+"categorie."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:647
+msgid "Comma seperated main categories by StoreContrl name."
+msgstr ""
+"Hoofd categorieën gebaseerd op StoreContrl naam gescheiden door komma's."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:667
+msgid ""
+"Run synchronisation cronjob in specific time range. Range is given start "
+"time plus one hour. Notice that thios cronjob can only run twice a day!"
+msgstr ""
+"Voer de synchronisatie cronjob uit rond een specifieke tijd. Een specifieke "
+"tijd verwacht een start tijd met een extra uur. Houd er rekening mee dat "
+"deze cronjob maar twee keer per dag kan draaien!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:680 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:727
+msgid "SERVER CRONJOB / Wordpress cronjob disabled"
+msgstr "SERVER CRONJOB / De Wordpress cronjob is uitgeschakeld"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:706 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:755 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1049 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1082 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1096 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1156 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1166
+msgid "Enable/Disable"
+msgstr "Activeren/Deactiveren"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:709
+msgid ""
+"This cronjob will run twice a day. This call create/update all products ( "
+"content, images, stock ) from StoreContrl into Woocommerce."
+msgstr ""
+"Deze cronjob zal twee keer per dag worden uitgevoerd. Het zal alle producten "
+"( inhoud, afbeeldingen, voorraad ) vanuit StoreContrl synchroniseren met "
+"Woocommerce."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:714 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:763
+msgid "Unable to activate this cronjob. API settings are empty or wrong!"
+msgstr ""
+"Kon de cronjob niet activeren. De API instellingen zijn leeg of kloppen niet!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:759
+msgid ""
+"This cronjob will be run every 5 minutes. This call update all "
+"product/variation stock values."
+msgstr ""
+"Deze cronjob zal iedere 5 minuten worden uitgevoerd. Het update alle "
+"product/variatie voorraden."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:771
+msgid "How does my conjob work?"
+msgstr "Hoe werkt mijn cronjob?"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:772
+msgid ""
+"Default we use the Wordpress cronjobs when enabled. This will trigger the "
+"cronjobs only when there are visitors on your site! Someone has to visit the "
+"site before the event actually kicks off. So if you’ve scheduled something "
+"to happen hourly, but no one has visited your site in the last hour, then "
+"the event will never kick off."
+msgstr ""
+"Wij maken standaard gebruik van Wordpress cronjobs vanaf het moment van "
+"activatie. Dit zorgt ervoor dat cronjobs alleen zullen draaien als er "
+"bezoekers op de website zijn! Iemand moet de website bezoeken om de cronjob "
+"te laten draaien. Als er een planning is om een cronjob ieder uur te laten "
+"draaien, zonder dat er iemand op de website is geweest het afgelopen uur, "
+"zal de cronjob nooit worden gestart."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:774
+msgid "Optional you can trigger the default Wordpress cronjob with PLESK."
+msgstr "Het is ook mogelijk om de cronjobs in te stellen op SERVER niveau."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:775
+msgid ""
+"We also provide specific urls you can use for setup a server cronjob. "
+"Checkout below the available cronjobs and the related interval."
+msgstr ""
+"We leveren verschillende links waarmee u server cronjobs kunt instellen. "
+"Lees verder voor de beschikbare cronjobs met de gerelateerde tussentijd."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:779
+msgid "Cronjob url"
+msgstr "Cronjob link"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:780
+msgid "Interval"
+msgstr "Tussentijd"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:781
+msgid "Function"
+msgstr "Functie"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:787 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:792 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:797
+msgid "*/5 * * * *"
+msgstr "*/5 * * * *"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:788
+msgid "Product 12-hour sync"
+msgstr "Producten 12-uur sync"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:793
+msgid "Process product batches"
+msgstr "Verwerk de product batches"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:798
+msgid "Stock changes"
+msgstr "Voorraad wijzigingen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:829
+msgid "No StoreContrl customer types available!"
+msgstr "Geen StoreContrl klant types beschikbaar!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:849
+msgid ""
+"Every order needs a StoreContrl customer type. The selected type will be "
+"used for sending orders to StoreContrl"
+msgstr ""
+"Iedere bestelling heeft een StoreContrl klant type nodig. Het geselecteerde "
+"type zal gebruikt worden tijdens het versturen van bestellingen naar "
+"StoreContrl"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:856 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:932 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1018 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1058 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1089
+msgid "Unable to activate this action. API settings are empty or wrong!"
+msgstr ""
+"Kon de functie niet activeren. De API instellingen zijn leeg of kloppen niet!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:885 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:965
+msgid "No Woocommerce shipping methods available!"
+msgstr "Geen WooCommerce verzendmethodes beschikbaar!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:887 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:968
+msgid "No StoreContrl shipping methods available!"
+msgstr "Geen StoreContrl verzendmethodes beschikbaar!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:893
+msgid "Woocommerce shipping method"
+msgstr "Woocommerce verzendmethode"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:894
+msgid "StoreContrl shipping method"
+msgstr "StoreContrl verzendmethode"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:909
+msgid "Select shipping method"
+msgstr "Selecteer een verzendmethode"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:926
+msgid ""
+"Every order needs a StoreContrl shipping method. Map all the existing "
+"Woocommerce shipping methods to an StoreContrl Woocommerce shipping method."
+msgstr ""
+"Iedere bestelling heeft een StoreContrl verzendmethode nodig. Koppel de "
+"bestaande Woocommerce verzendmethodes met StoreContrl verzendmethode."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:936 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1022 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1062
+msgid "Woocommerce not activated!"
+msgstr "Woocommerce is niet geactiveerd!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:975
+msgid "Woocommerce payment method"
+msgstr "Woocommerce betaalmethode"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:976
+msgid "StoreContrl payment method"
+msgstr "StoreContrl betalingsmethode"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:994
+msgid "Select payment method"
+msgstr "Selecteer een betaalmethode"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1011
+msgid ""
+"Every order needs a StoreContrl payment method. Map all the existing "
+"Woocommerce payment methods to an StoreContrl Woocommerce payment method."
+msgstr ""
+"Iedere bestelling heeft een StoreContrl betaalmethode nodig. Verbind de "
+"bestaande Woocommerce betaalmethodes met StoreContrl Woocommerce "
+"betaalmethodes."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1053
+msgid ""
+"When enabled; new paid order(s) will automatically created in StoreContrl!"
+msgstr ""
+"Zodra geactiveerd; nieuwe betaalde bestelling(en) zullen automatisch in "
+"StoreContrl worden aangemaakt!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1085
+msgid ""
+"When enabled; deleting order(s) will automatically deleted in StoreContrl!"
+msgstr ""
+"Zodra geactiveerd; verwijderde bestellingen zullen automatisch uit "
+"StoreContrl worden verwijderd!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1099
+msgid ""
+"When enabled; deleted product(s) in StoreContrl will be put in the trash of "
+"WooCommerce!"
+msgstr ""
+"Zodra geactiveerd; verwijderde producten uit StoreContrl zullen in "
+"WooCommerce in de prullenbak worden geplaatst."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1108
+msgid "Save value(s) as category! Be sure taxonomy \"product_color\" exist!"
+msgstr ""
+"Sla waarde(s) op als categorie! Controleer het bestaan van de "
+"\"product_color\" categorie!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1113 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1130 
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1147
+msgid "Save value(s) as product attribute!"
+msgstr "Sla waarde(s) op als product attribuut"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1125
+msgid "Save value(s) as category! Be sure taxonomy \"product_brand\" exist!"
+msgstr ""
+"Sla waarde(s) op als categorie! Controleer het bestaan van de "
+"\"product_brand\" categorie!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1142
+msgid "Save value(s) as category! Be sure taxonomy \"product_season\" exist!"
+msgstr ""
+"Sla waarde(s) op als categorie! Controleer het bestaan van de "
+"\"product_season\" categorie!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1159
+msgid "When enabled; the supplier will be saved as product attribute."
+msgstr ""
+"Zodra geactiveerd; de leverancier zal worden opgeslagen als product "
+"attribuut."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1169
+msgid "When enabled; the supplier_code will be saved as product attribute."
+msgstr ""
+"Zodra geactiveerd; de leverancier code zal worden opgeslagen als product "
+"attribuut."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1182
+msgid ""
+"Before you submit a support ticket please look at our support page. There "
+"you can find all the info about status codes and common questions."
+msgstr ""
+"Neem een kijkje op onze support pagina voordat u het contactformulier "
+"verstuurt. Daar kunt u allerlei informatie vinden over foutmeldingen, codes "
+"en meest gestelde vragen."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1183
+msgid "Visit our support page"
+msgstr "Bezoek onze support pagina"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1189
+msgid "Name"
+msgstr "Naam"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1190
+msgid "Your name"
+msgstr "Uw naam"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1193
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1197
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1201
+msgid "Attach a log file"
+msgstr "Logboek toevoegen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1208
+msgid "None"
+msgstr "Geen"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1221
+msgid "Request support"
+msgstr "Support aanvraag"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1221
+msgid "Verify that you can send emails via wordpress!"
+msgstr "Controleer of u emails kunt versturen via Wordpress!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1223
+msgid ""
+"Please provide us detailed information. Check first the cronjob status and "
+"debug logs."
+msgstr ""
+"Geef ons alstublieft gedetailleerde informatie. Controleer eerst de cronjob "
+"status en de debug logboeken."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1247
+msgid "Synchronize cronjobs not (all) activated!"
+msgstr "Let op: niet alle cronjobs zijn momenteel actief!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1269
+msgid "Error: name field is empty!"
+msgstr "Error: je naam is nog niet leeg."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1279
+msgid "Error: email field is empty!"
+msgstr "Error: je email adres is nog leeg."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1289
+msgid "Error: description field is empty!"
+msgstr "Error: de omschrijving is nog leeg."
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1320
+msgid "Support request sended!"
+msgstr "Je support aanvraag is verstuurd!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1327
+msgid "WP mail not working!"
+msgstr "WP Mail werkt niet op deze omgeving!"
+
+#: includes/admin/class-storecontrl-wp-connection-admin.php:1335
+msgid "No data submitted"
+msgstr "Geen data opgeslagen"
+
+#: includes/api/class-storecontrl-web-api-functions.php:83
+msgid "API settings are correct!"
+msgstr "API instellingen zijn correct!"
+
+#: includes/api/class-storecontrl-web-api-functions.php:89
+msgid "Arture key is incorrect!"
+msgstr "Arture sleutel is onjuist!"
+
+#: includes/api/class-storecontrl-web-api-functions.php:114
+msgid "No connection available!"
+msgstr "Geen verbinding beschikbaar!"
+
+#: includes/api/class-storecontrl-web-api-functions.php:143
+msgid "Manual triggered the \"Total synchronization\""
+msgstr "Handmatige start van \"Totale synchronisatie\""
+
+#: includes/api/class-storecontrl-web-api-functions.php:158
+msgid "Manual triggered the \"Process batches\""
+msgstr "Handmatige start van \"Batches verwerken\""
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:3
+msgid "Notice: use this call only when your in StoreContrl dev modus!"
+msgstr "Melding: gebruik deze optie alleen tijdens de ontwikkel fase!"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:6
+msgid "Let op! Er zijn onopgeslagen wijzigingen"
+msgstr "Let op! Er zijn onopgeslagen wijzigingen"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:8
+msgid "StoreContrl API"
+msgstr "StoreContrl API"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:13
+msgid "Setup"
+msgstr "Installatie"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:17
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:40
+msgid "Check API key and secret"
+msgstr "Controleer API sleutel en code"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:99
+msgid ""
+"If you encounter problems or have questions regarding the functionality of "
+"the API. Please refer to the frequently asked questions or contact us"
+msgstr ""
+"Als u problemen ondervind of vragen heeft met betrekking tot de "
+"functionaliteit van de plugin. Bekijk dan de veel gestelde vragen of neem "
+"contact met ons op"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:101
+msgid "Frequently Asked Questions"
+msgstr "Veel Gestelde Vragen"
+
+#: includes/admin/partials/storecontrl_wp_connection_settings_page.php:102
+msgid "Contact us"
+msgstr "Neem contact met ons op"
+
+#. Name of the plugin
+msgid "StoreContrl WP Connection"
+msgstr "StoreContrl WP Connectie"
+
+#. Description of the plugin
+msgid ""
+"The Wordpress plugin for connecting Woocommerce with StoreContrl Cloud. With "
+"the synchronizing cronjobs your products will be automatically processed, "
+"images added, and the categories set. Every 5 minutes all stock changes are "
+"processed. We provide a up-to-date plugin, easy setup and always the best "
+"support."
+msgstr ""
+"De Wordpress plugin voor het verbinden van Woocommerce met StoreContrl Cloud."
+" Doormiddel van de synchronisatie cronjobs zullen al uw producten "
+"automatisch worden verwerkt, afbeeldingen worden toegevoegd en categorieën "
+"worden ingesteld. Iedere 5 minuten zullen de veranderingen in voorraad "
+"worden doorgevoerd. Wij leveren een up-to-date plugin met makkelijke "
+"installatie en de beste ondersteuning."
+
+#. URI of the plugin
+msgid "http://www.arture.nl/storecontrl"
+msgstr "http://www.arture.nl/storecontrl"
+
+#. Author of the plugin
+msgid "Arture"
+msgstr "Arture"
+
+#. Author URI of the plugin
+msgid "https://arture.nl/"
+msgstr "https://arture.nl/"

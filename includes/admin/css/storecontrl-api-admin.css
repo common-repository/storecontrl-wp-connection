@@ -1,0 +1,157 @@
+/*
+=================================================
+    API CSS
+=================================================
+*/
+#adminmenu li.current a.menu-top.toplevel_page_storecontrl-wp-connection-panel {
+    background: #00adf2;
+}
+
+#latest_update {
+    width: 150px;
+}
+
+.btn-primary {
+    background-color: #00b9eb !important;
+    border-color: #00b9eb !important;
+}
+.btn-primary:hover {
+    background-color: #009ccd  !important;
+}
+
+.loading {
+    max-height: 20px;
+    margin: 0 15px;
+}
+
+#storecontrl_settings #storecontrl_settings_notice_changes_box {
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    color: #856404;
+    position: fixed;
+    font-weight: bold;
+    border: 1px solid;
+    z-index: 99999999;
+    background-color: #ffeeba;
+}
+
+#storecontrl_settings #storecontrl_settings_notice_changes_box:not(.show) {
+    display: none;
+}
+
+#storecontrl_settings table th {
+    padding: 20px 10px 20px 10px;
+    width: 225px;
+}
+#storecontrl_settings table .table-striped th {
+    width: 300px;
+    padding-top: 5px;
+}
+#storecontrl_settings table > tbody > tr:nth-of-type(2n+1) {
+    background-color: #f9f9f9;
+}
+#storecontrl_settings .info {
+    font-style: italic;
+    clear: both;
+    margin: 10px 0px;
+}
+#storecontrl_settings .info span {
+    margin-right: 10px;
+}
+#storecontrl_settings .tab-content {
+    border: 1px solid #00adf2;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+#storecontrl_settings .nav-tabs {
+    border-bottom: 1px solid #00adf2;
+}
+#storecontrl_settings .nav-tabs > li.active > a,
+#storecontrl_settings .nav-tabs > li.active > a:focus,
+#storecontrl_settings .nav-tabs > li.active > a:hover,
+#storecontrl_settings .nav-tabs > li > a:focus,
+#storecontrl_settings .nav-tabs > li > a:hover {
+    border: 1px solid #00adf2;
+    border-bottom-color: transparent;
+    background: #00adf2;
+    color: #fff;
+}
+#storecontrl_settings .button-primary,
+#storecontrl_settings .button-primary.focus,
+#storecontrl_settings .button-primary.hover,
+#storecontrl_settings .button-primary:focus,
+#storecontrl_settings .button-primary:hover {
+    background: #00adf2;
+    border-color: #00adf2;
+    color: #fff;
+    text-shadow: unset;
+    font-size: 14px;
+}
+#storecontrl_settings .tab-content .notice {
+    margin: 15px 0px;
+}
+
+/* Default section */
+#default_section .submit {
+    float: left;
+}
+#default_section #test-storecontrl-api-connection {
+    float: left;
+    margin: 20px;
+}
+
+/* Setup section */
+.state-icon {
+    left: -5px;
+}
+.list-group-item-success.active {
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+
+
+/* Support section */
+#support_section .form-table th {
+    padding: 0px;
+    width: 0px;
+}
+#support_section .form-table td {
+    padding: 15px 0px;
+}
+
+/* Woocommerce section */
+#woocommerce_section input[type="radio"] {
+    margin-top: 2px;
+}
+
+.unstyled {
+    padding-left: 0px;
+}
+.unstyled span{
+    min-width: 75px;
+    display: block;
+    float: left;
+}
+
+.submit_loading {
+    width: 25px;
+    margin: 20px 0;
+    display: none;
+}
+
+#ArtureKey {
+    background: #03a9f4;
+    text-align: center;
+    padding: 15px;
+    width: auto;
+    color: #fff;
+    margin: 15px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+#ArtureKey a {
+    color: #fff;
+    font-size: 22px;
+ }
